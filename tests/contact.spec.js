@@ -106,4 +106,7 @@ describe('Update Contact', () => {
     await ContactPageClass.deleteContact(id);
     await validateEntity(accessToken, `/contacts/${id}`, '404', { request })
   });
+
+
+  
 });
